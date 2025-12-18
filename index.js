@@ -1,4 +1,4 @@
-const data = [
+بconst data = [
     "ZmxhZ3t0aGlua18=",   // part A
     "dGhlX2JveH0=",       // part C
     "ZmFrZV9wYXJ0"        // fake
@@ -20,3 +20,5 @@ function buildFlag() {
     // الجزء الناقص ليس هنا 😉
     return atob(data[0]) + atob(data[1]);
 }
+
+// ZmxhZ3t0aGlua18=
